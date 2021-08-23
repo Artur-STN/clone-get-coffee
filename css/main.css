@@ -29,13 +29,25 @@ main .dividerinfos button {
     background: #FCA60F;
     color: white;
 
-    border: none;
+    border: 0;
+    border-bottom: 1px solid #C95E20;
     border-radius: 10px;
     
-    width: 300px;
+    width: 250px;
 
     margin-bottom: 2rem;
     padding: 1rem 0;
+
+    transition: 0.3s;
+
+    cursor: pointer;
+
+}
+
+main .dividerinfos button:hover {
+
+    background: white;
+    color: #FCA60F;
 
 }
 
@@ -83,5 +95,39 @@ main .dividerinfos .socialMedia a .fab:hover {
 
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
     text-shadow: 0 0 5px #C95E20;
+
+}
+
+@media(max-width: 900px) {
+
+    main {
+
+        flex-direction: column;
+        
+        padding: 2rem 0;
+
+        text-align: center;
+
+    }
+
+    main .dividerinfos {
+
+        margin-bottom: 3rem;
+
+    }
+
+    main .dividerinfos p {
+
+        text-align: center;
+        
+        width: 350px;
+
+    }
+
+    main .dividerinfos .socialMedia {
+
+        justify-content: center;
+
+    }
 
 }

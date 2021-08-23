@@ -25,3 +25,13 @@
     font-size: 1.5rem;
 
 }
+
+@media(max-width: 900px) {
+
+    .dividerScroll {
+
+        margin-bottom: 2rem;
+
+    }
+
+}
