@@ -1,0 +1,27 @@
+.dividerScroll {
+
+    text-align: center;
+    
+    width: 100px;
+
+    margin: auto;
+
+}
+
+.dividerScroll p {
+
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    font-weight: bolder;
+
+    margin-bottom: 1rem;
+
+}
+
+.dividerScroll .fas {
+
+    color: #C95E20;
+
+    font-size: 1.5rem;
+
+}

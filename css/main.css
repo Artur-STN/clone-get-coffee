@@ -1,0 +1,87 @@
+main {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 7rem;
+
+}
+
+main .dividerinfos p {
+
+    font-family: 'Roboto';
+    font-size: 2rem;
+    font-weight: bolder;
+
+    width: 440px;
+
+    margin-bottom: 4rem;
+
+}
+
+main .dividerinfos button {
+
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+    background: #FCA60F;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+    
+    width: 300px;
+
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+
+}
+
+main .dividerinfos .socialMedia {
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+main .dividerinfos .socialMedia a .fab {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #C95E20;
+    color: white;
+
+    font-size: 1.2rem;
+
+    border-radius: 10px;
+    
+    width: 35px;
+    height: 35px;
+
+    transition: 0.2s;
+
+}
+
+main .dividerinfos .socialMedia a .fa-facebook-f,
+main .dividerinfos .socialMedia a .fa-twitter {
+
+    margin-left: 1rem;
+
+}
+
+main .dividerinfos .socialMedia a .fab:hover {
+
+    background: white;
+    color: #C95E20;
+
+    font-size: 1.5rem;
+
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 5px #C95E20;
+
+}

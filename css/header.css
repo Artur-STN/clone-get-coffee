@@ -1,0 +1,52 @@
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    
+    width: 100vw;
+    
+    padding: 1rem 8rem;
+    
+}
+
+header nav ul {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 300px;
+
+}
+
+header nav ul a li {
+
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    font-weight: 300;
+
+    color: black;
+
+    text-align: center;
+
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+
+    width: 90px;
+
+    padding: 0.5rem 0;
+
+    transition: 0.2s;
+
+}
+
+header nav ul a li:hover {
+
+    background: #C95E20;
+    color: white;
+
+}
