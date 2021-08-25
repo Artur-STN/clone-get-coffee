@@ -32,7 +32,7 @@ main .dividerinfos button {
     border: 0;
     border-bottom: 1px solid #C95E20;
     border-radius: 10px;
-    
+
     width: 250px;
 
     margin-bottom: 2rem;
@@ -71,7 +71,7 @@ main .dividerinfos .socialMedia a .fab {
     font-size: 1.2rem;
 
     border-radius: 10px;
-    
+
     width: 35px;
     height: 35px;
 
@@ -103,7 +103,7 @@ main .dividerinfos .socialMedia a .fab:hover {
     main {
 
         flex-direction: column;
-        
+
         padding: 2rem 0;
 
         text-align: center;
@@ -119,14 +119,24 @@ main .dividerinfos .socialMedia a .fab:hover {
     main .dividerinfos p {
 
         text-align: center;
-        
-        width: 350px;
+
+        width: 300px;
 
     }
 
     main .dividerinfos .socialMedia {
 
         justify-content: center;
+
+    }
+
+}
+
+@media(max-width: 800px) {
+    
+    main {
+
+        margin-top: 8rem;
 
     }
 

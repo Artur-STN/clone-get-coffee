@@ -14,6 +14,12 @@ header {
     
 }
 
+header nav {
+
+    background: white;
+
+}
+
 header nav ul {
 
     display: flex;
@@ -53,17 +59,105 @@ header nav ul a li:hover {
 
 }
 
+#inputCheckBox,
+label {
+
+    display: none;
+
+}
+
+label {
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 1.5rem;
+    
+    border: 1px solid white;
+    border-radius: 5px;
+
+    width: 35px;
+    height: 35px;
+    
+    margin-top: 1rem;
+
+    transition: 0.2s;
+
+    cursor: pointer;
+
+}
+
 @media(max-width: 800px) {
 
-    header {
+    label {
 
-        flex-direction: column;        
+        display: flex;
 
     }
 
-    header .dividerLogo {
+    label:hover {
 
-        margin-bottom: 2rem;
+        color: #C95E20;
+
+        border: 1px solid;
+
+    }
+
+    #inputCheckBox:checked ~ nav {
+
+        left: 0;
+
+    }
+
+    header {
+
+        background: white;
+
+        flex-direction: column;
+
+        position: fixed;
+        top: 0;
+        
+        z-index: 3;
+
+    }
+
+    header nav {
+
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+        
+        width: 100vw;
+        
+        padding: 0;
+        
+        position: absolute;
+        top: 125px;
+        left: -100vw;
+
+        transition: 0.5s;
+
+    }
+
+    header nav ul {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        flex-direction: column;
+        
+        width: 100vw;
+
+    }
+
+    header nav ul a li {
+
+        width: 100vw;
+
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
 
     }
 
